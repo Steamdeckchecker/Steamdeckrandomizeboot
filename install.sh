@@ -3,7 +3,7 @@
 # Create required directories
 echo ":: Creating required directories"
 mkdir -p "$HOME/homebrew"
-mkdir -p "/.steam/root/config/uioverrides/movies/"
+mkdir -p "$HOME/deck/.steam/root/config/uioverrides/movies/"
 mkdir -p "$HOME/.config/systemd/user"
 
 # Clone the startup animations repository
