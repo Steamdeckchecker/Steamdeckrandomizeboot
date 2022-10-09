@@ -11,7 +11,7 @@ https://github.com/kageurufu/steamdeck_startup_animations/blob/main/
 # Installation
 
 ```sh
-curl -o - https://raw.githubusercontent.com/kageurufu/steamdeck_startup_animations/main/install.sh | bash -
+curl -o - https://raw.githubusercontent.com/Steamdeckchecker/Steamdeckrandomizeboot/main/install.sh | bash -
 ```
 
 If you're (justifiably) not a fan of `curl | bash`, you can run this:
