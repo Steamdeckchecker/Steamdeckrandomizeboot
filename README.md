@@ -19,7 +19,7 @@ If you're (justifiably) not a fan of `curl | bash`, you can run this:
 ```sh
 mkdir -p "$HOME/homebrew"
 mkdir -p "$HOME/.config/systemd/user"
-git clone https://github.com/kageurufu/steamdeck_startup_animations "$HOME/homebrew/startup_animations"
+git clone https://github.com/Steamdeckchecker/Steamdeckrandomizeboot "$HOME/homebrew/startup_animations"
 ln -sf "$HOME/homebrew/startup_animations/randomize_deck_startup.service" "$HOME/.config/systemd/user/randomize_deck_startup.service"
 systemctl --user daemon-reload
 systemctl --user enable --now randomize_deck_startup.service
